@@ -1,7 +1,7 @@
 {
   "name": "jimix/db-anonimizer",
   "type": "library",
-  "license": ".",
+  "license": "GPL-3.0-only",
   "authors": [
     {
       "name": "Jaime Martínez",

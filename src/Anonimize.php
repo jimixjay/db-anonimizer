@@ -22,7 +22,7 @@ class Anonimize extends Command
         try {
             $path = getcwd() . DIRECTORY_SEPARATOR . 'db-anonimizer.json';
             $configJson = file_get_contents($path);
-            
+
 
         } catch (Throwable $e) {
 
