@@ -1,0 +1,25 @@
+{
+  "name": "jimix/db-anonimizer",
+  "type": "library",
+  "license": ".",
+  "authors": [
+    {
+      "name": "Jaime Martínez",
+      "email": "jimixjay@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Jimixjay\\Anonimizer\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "illuminate/console": "^6.0"
+  },
+  "extra": {
+    "db-anonimizer": {
+      "config": "db-anonimizer.json"
+    }
+  }
+}
